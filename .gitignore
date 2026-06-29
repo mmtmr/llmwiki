@@ -15,8 +15,6 @@ dist/
 *.tsbuildinfo
 
 # Secrets — NEVER commit
-.env
-.env.*
 !.env.example
 
 # Python
@@ -60,3 +58,4 @@ docs/
 
 # Local-only developer scripts (apply_migration.sh, one-shot utilities)
 scripts/
+config.bat
